@@ -1,0 +1,176 @@
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  margin-left: 41px;
+}
+
+.header-background-image {
+  background:  linear-gradient(180deg, #15143D 0%, #3F3D7D 100%);
+  border-radius: 10px 10px 0px 0px;
+  color: white;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+}
+
+.city-header {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  margin: 30px;
+}
+
+.option {
+  color: white;
+  margin-bottom: 70px;
+  margin-left: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.option--all {
+  margin-left: 20px;
+}
+
+.temperature {
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 100px;
+  line-height: 133px;
+  
+}
+
+.main__pogodaTime {
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 40px;
+
+}
+
+.main {
+  display: flex;
+  height: 370px;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 50px;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.today {
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 33px;
+}
+
+.month {
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.double__temperature {
+  display: flex;
+}
+
+.temptoday {
+  display: flex;
+  align-items: center;
+  margin-left: 41px;
+}
+
+.temptoday-margin {
+  margin-right: 40px;
+}
+
+.infoHeader--city {
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 67px;
+  margin: 0;
+}
+
+.infoHeader--stily {
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 29px;
+  color: rgba(255, 255, 255, 0.5);
+  margin: 0;
+}
+
+.temp_max {
+  padding-right: 10px;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 33px;
+  color: #000000;
+  margin: 0;
+}
+
+.temp_min {
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 33px;
+  margin: 0;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.description--onday {
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  margin: 0;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.select__city {
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 29px;
+  border: none;
+  background: none;
+  color: white;
+}
+
+.select__city option {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.search__input {
+  border: none;
+  background: none;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 29px;
+  color: #FFFFFF;
+ width: 200px;
+
+}
+.form{
+  margin-right: 41px;
+}
